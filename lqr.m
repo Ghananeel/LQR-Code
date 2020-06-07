@@ -1,3 +1,5 @@
+% Author : Ghananeel Rotithor
+
 % Create state vector and P matrix and time vector
 iter = 1000;  dt = 0.01; t = 0:dt:(iter-1)*dt;
 x = zeros(2,1000); P = zeros(2,2,1000);
