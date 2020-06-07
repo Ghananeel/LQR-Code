@@ -36,6 +36,7 @@ subplot(222)
 plot(t(1:end-1),u,'LineWidth',2);
 xlabel('Time (s)','interpreter','latex','FontSize',20);
 ylabel('Control Effort','interpreter','latex','FontSize',20);
+legend('$u$','interpreter','latex','FontSize',20);
 
 subplot(223)
 plot(t(1:end-1),K,'LineWidth',2);
